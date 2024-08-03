@@ -1,2 +1,46 @@
 /* 背景圖片 */
-#home{background-image: url(../images/p0.jpg);}
+#home {
+    background-image: url("../images/p0.jpg");
+}
+
+#about {
+    background-image: url("../images/p1.jpg");
+}
+
+#news {
+    background-image: url("../images/p2.jpg");
+}
+
+#service {
+    background-image: url("../images/p3.jpg");
+}
+
+#contact {
+    background-image: url("../images/p4.jpg");
+}
+
+/* 符合瀏覽器滿版設定 */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    /* 高度滿版 */
+    height: 100%;
+    /* 圖片用full呈現 */
+    background-size: cover;
+    /* 背景圖片置中 */
+    background-position: center center;
+}
+
+.txt_bg{
+    background-color: rgba(225, 225, 225, .5);
+    width: 800px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    border-radius: 50px;
+}
